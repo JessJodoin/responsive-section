@@ -18,3 +18,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e5c30a;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-letter,
+.section-icon {
+  width: 25%;
+}
+
+.section-body {
+  padding: 1.3rem;
+
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.section-body h1,
+p {
+  margin: 0;
+}
