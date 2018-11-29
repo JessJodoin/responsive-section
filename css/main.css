@@ -44,3 +44,12 @@ section {
 p {
   margin: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
