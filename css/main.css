@@ -24,25 +24,20 @@ body {
 }
 
 section {
-  background-color: #e5c30a;
-}
+  padding: 1.3rem;
+  max-width: 45em;
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  background-color: #e5c30a;
 }
 
 .section-letter,
 .section-icon {
-  width: 25%;
+  display: inline-block;
+  width: 49%;
 }
 
 .section-body {
-  padding: 1.3rem;
-
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.5rem;
 }
 
 .section-body h1,
