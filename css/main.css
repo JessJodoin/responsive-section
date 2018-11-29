@@ -25,7 +25,6 @@ body {
 
 section {
   padding: 1.3rem;
-  max-width: 45em;
 
   background-color: #e5c30a;
 }
@@ -85,6 +84,41 @@ p {
 
   .section-body {
     padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  section {
+    display: inline-block;
+    margin: 0;
+
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 45em;
+  }
+
+  .section-letter,
+  .section-icon {
+    padding: 0;
+    width: 25%;
+  }
+
+  .section-body {
+    margin: 0 1.5rem;
+    padding: 0;
   }
 
 }
