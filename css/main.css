@@ -39,7 +39,7 @@ section {
   font-family: "Noto Sans", sans-serif;
 }
 
-.section-body h1,
+.section-body h2,
 p {
   margin: 0;
 }
@@ -68,8 +68,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    max-height: 8em;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .section-icon {
@@ -78,11 +78,13 @@ p {
 
   .section-letter,
   .section-icon {
+    display: inline-block;
     padding: 1rem;
     width: 25%;
   }
 
   .section-body {
+    display: inline-block;
     padding: 0 1rem;
   }
 
@@ -105,6 +107,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 
     width: 100%;
     max-width: 45em;
